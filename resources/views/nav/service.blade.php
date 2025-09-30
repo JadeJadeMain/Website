@@ -7,6 +7,12 @@
     <title>Services</title>
 </head>
 <body>
+    <x-navigation/>
+
+    {{-- Write your code here --}}
+    {{-- SERVICES PAGE --}}
     <h3>Services</h3>
+
+    <x-footer/>
 </body>
 </html>

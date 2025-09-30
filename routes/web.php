@@ -11,6 +11,11 @@ Route::get('/about', function () {
 });
 
 
-Route::('/services', function () {
+Route::get('/service', function () {
+    return view('nav.service'); // views/contact.blade.php
+});
+
+//contact page
+Route::get('/contact', function () {
     return view('nav.contact'); // views/contact.blade.php
 });
