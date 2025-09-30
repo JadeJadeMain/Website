@@ -1,0 +1,7 @@
+
+
+
+<footer>
+    <p>Footer Content</p>
+</footer>
+
