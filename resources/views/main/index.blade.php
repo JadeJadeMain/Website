@@ -1,6 +1,10 @@
-<x-header/>
+@include('components.header')
 
 <body>
+    <x-navigation/>
+
+    {{-- Write your code here --}}
+    {{-- HOME PAGE --}}
 
 
 
@@ -9,7 +13,7 @@
 
 
     {{-- do not delete this line footer --}}
-    <x-footer/>
+    @include('components.footer')
 </body>
 
 
