@@ -1,3 +1,5 @@
+
+
 @include('components.header')
 
 <body>
@@ -8,7 +10,7 @@
 
 
 
-
+    <h2>HELLO DEVELOPERS</h2>
 
 
 

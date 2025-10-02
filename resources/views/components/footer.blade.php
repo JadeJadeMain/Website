@@ -9,6 +9,19 @@
 </footer>
 
 <style>
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-copyright{
+       
+        text-align: center;
+        font-size: 0.9em;
+        margin-top: 15px;
+        color: #bbb;
+    }
     footer {
         background: #222;
         color: #fff;
@@ -34,17 +47,10 @@
         margin: 0 8px;
         font-size: 1.2em;
     }
-    .footer-copyright {
-        font-size: 0.9em;
-        margin-top: 15px;
-        color: #bbb;
-    }
+    
 </style>
 
 
-<div class="footer-copyright">
-    &copy; {{ date('Y') }} Construction Company. All rights reserved.
-</div>
 
 <!-- Font Awesome CDN for icons (optional) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
